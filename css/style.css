@@ -188,15 +188,61 @@ button {
     margin: 0 auto;
 }
 
+.direction{
+    padding: 120px 0 100px;
+}
+.direction__item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.direction__item-content{
+    max-width: 486px;
+}
+.direction__item-pretitle{
+    margin-bottom: 3px;
+}
+.direction__item-title{
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+.direction__item-subtitle{
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.direction__item-titletext{
+    margin-bottom: 30px;
+}
+.direction__item-text{
+    margin-bottom: 25px;
+}
 
+.direction__list{
+    list-style: none;
+}
 
+.direction__list-item{
+    margin-bottom: 30px;
+    padding-left: 65px;
+    position: relative;
+}
+.direction__list-item::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    background-image: url('../images/direction-icon.svg');
+}
 
-
-
-
-
-
-
+.team{
+    background-image: url('../images/team-bg.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
 
 
 
